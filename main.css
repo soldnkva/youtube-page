@@ -1,0 +1,216 @@
+
+/* CSS reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* GENERAL */
+
+body {
+  background-color: #f1f1f1;
+  font-family: Roboto, arial, sans-serif;
+}
+h1 {
+  font-size: 20px;
+  color: black;
+}
+h3 {
+  font-weight: 500;
+  font-size: 13px;
+  color: #555555;
+}
+h4 {
+  font-weight: 700;
+  line-height: 17px;
+  font-size: 13px;
+  color: #128ee9;
+}
+h5 {
+  font-size: 13px;
+  font-weight: 700;
+  color: black;
+}
+
+header,
+section,
+aside {
+  background-color: #ffffff;
+  border: solid 1px #e8e8e8;
+}
+#wrapper {
+  margin: auto;
+}
+#wrapper td {
+  vertical-align: top;
+}
+hr {
+  border: 0;
+  height: 0;
+  border-top: solid 1px #e2e2e2;
+}
+p {
+  font-size: 13px;
+  line-height: 17px;
+  color: #333333;
+}
+img {
+  width: 50px;
+  border: 1px;
+  }
+
+/* HEADER */
+
+header {
+  width: 100%;
+  height: 50px;
+}
+#youtube {
+  width: 70px;
+  vertical-align: middle;
+  margin: -10px 0 0 50px;
+}
+/* MAIN */
+
+section {
+  margin: 10px 10px 0 50px;
+  width: 610px;
+  padding: 15px;
+}
+iframe {
+  margin: 0;
+}
+#video {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+#v-title table {
+  margin: 15px 0 0 0;
+  font-size: 19px;
+  color: #666666;
+  width: 610px;
+}
+#v-title h5 {
+  margin: 0 0 0 10px;
+}
+#v-title button {
+  margin: 10px 0 0 10px;
+  background-color: #e62117;
+  color: #ffffff;
+  border: solid 1px #e62117;
+  border-radius: 1px;
+  font-weight: 500;
+  font-size: 12px;
+}
+#v-title #td-right {
+  vertical-align: bottom;
+  text-align: right;
+  width: 500px;
+}
+#v-comments img {
+  margin: 20px 0 10px 0;
+}
+#v-comments input {
+  margin: 20px 0 10px 10px;
+  width: 540px;
+  height: 45px;
+  float: right;
+}
+#v-commets img, input {
+  display: inline-block;
+}
+#v-comments button {
+  background-color: #f8f8f8;
+  border: solid 1px #d3d3d3;
+  padding: 5px 10px 5px 10px;
+  font-weight: 500;
+  color: #333333;
+  font-size: 11px;
+  margin: 10px 0 20px 0;
+}
+#v-comments td img {
+  margin: 0;
+}
+#v-comments h4 {
+  margin: 0 0 0 10px;
+}
+#v-comments p {
+  margin: 5px 0 0 10px;
+}
+/* ASIDE */
+
+aside {
+  margin: 10px 50px 0 0;
+  width: 400px;
+}
+#next {
+  margin: 10px;
+}
+aside table {
+  margin: 10px;
+}
+aside img {
+  width: 130px;
+  height: 70px;
+  object-fit: cover;
+  margin: 0 0 10px 0;
+}
+aside h5 {
+  margin: 0 0 5px 10px;
+}
+aside p {
+  font-size: 11px;
+  line-height: 15px;
+  color: #767676;
+  margin: 0 0 0 10px;
+}
+a:hover h5 {
+  color: #167ac6;
+}
+
+
+
